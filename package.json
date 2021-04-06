@@ -1,22 +1,38 @@
 {
-    "name": "mittens",
+    "name": "das",
     "version": "1.0.0",
     "main": "server.js",
     "dependencies": {
-        "animejs": "^2.0.2",
+        "animejs": "^3.2.1",
         "bcryptjs": "^2.4.3",
-        "body-parser": "^1.17.2",
-        "express": "^4.15.3",
-        "jwt-simple": "^0.5.1",
-        "mongodb": "^2.2.29",
-        "socket.io": "^2.0.3"
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jwt-simple": "^0.5.6",
+        "mongodb": "^3.6.5"
     },
     "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js"
     },
-    "author": "",
+    "keywords": [
+        "DAS",
+        "NodeJS",
+        "jwt",
+        "bootstrap",
+        "ui",
+        "socket",
+        "mongodb",
+        "express"
+    ],
+    "author": {
+        "name": "IamDinni",
+        "url": "https://github.com/IamDinni/IEEE-das"
+    },
+    "bugs": {
+        "url": "https://github.com/IamDinni/IEEE-das/issues"
+    },
+    "homepage": "https://github.com/IamDinni/IEEE-das#readme",
     "license": "ISC",
-    "description": ""
+    "description": "Digitized Attendance System"
 }
